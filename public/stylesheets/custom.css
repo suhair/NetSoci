@@ -1,0 +1,111 @@
+.container
+{
+	width:710px;
+}
+body
+{
+	background: #cff;
+}
+#header
+{
+	padding-top:20px;
+}
+#header img
+{
+	padding:1em;
+}
+#content
+{
+	margin-top:1em;
+	font-size:120%;
+	padding:20px;
+	background:#fff;
+}
+
+/* Link Styling */
+
+a
+{
+	color:#09c;
+	text-decoration:none;
+}
+a:hover
+{
+	color:#069;
+	text-decoration:underline;
+}
+a:visited
+{
+	color:#069;
+}
+
+
+/* Navigation Styles */
+
+.navigation
+{
+	float:right;
+	background-color:#fff;
+	padding:0 0.7em;
+	white-space:nowrap;
+}
+
+ul.navigation
+{
+	margin:0px;
+}
+.navigation li
+{
+	list-style-type:none;
+	display:inline-block;
+	padding:0.2em 0px;
+}
+.navigation li a
+{
+	padding:0px 5px;
+	font-weight:bold;
+}
+
+a.signup_button
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:180px;
+	background:#006400;
+	display:block;
+	font-size:150%;
+	padding:20px;
+	text-align:center;
+	color:#fff;
+	font-weight:bold;
+}
+
+
+.round
+{
+	-moz-border-radius:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

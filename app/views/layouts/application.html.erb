@@ -3,11 +3,26 @@
 <html>
 	<head>
 		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
-		<title>Ruby on Rails Sample App | <%= @title %> </title>
-		
+		<title> <%= title %> </title>
+		<%= stylesheet_link_tag 'blueprint/screen', :media => 'screen' %>
+		<%= stylesheet_link_tag 'blueprint/print', :media => 'print' %>
+		<%= stylesheet_link_tag 'custom', :media => 'screen' %>
 	</head>
 	<body>
-		<%= yield %>
+		<div class="container">
+			<div id="header">
+				<%= image_tag "logo.png", :alt => "Logo", :class => "round" %>
+				<ul class="navigation round">
+					<li><%= link_to "Home", '#' %></li>
+					<li><%= link_to "Help", '#' %></li>
+					<li><%= link_to "Sign In", '#' %></li>
+				</ul>
+			</div>
+			<div id="content" class="round">
+				<%= yield %>
+			</div>
+		</div>
+		
 	</body>
 </html>
 
